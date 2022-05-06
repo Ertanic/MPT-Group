@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using mpt_group_site_back.Data.Contexts;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,7 +15,11 @@ builder.Services.AddSpaStaticFiles(spa => spa.RootPath = @"front\dist");
 
 var app = builder.Build();
 
+#if DEBUG
+
 app.UseCors(builder => builder.AllowAnyOrigin());
+
+#endif
 
 app.UseRouting();
 app.UseEndpoints(endpoints => endpoints.MapControllers());

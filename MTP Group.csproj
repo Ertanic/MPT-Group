@@ -7,6 +7,34 @@
     <RootNamespace>mpt_group_site_back</RootNamespace>
     <UserSecretsId>f515cab0-c352-4053-9557-117a2325fece</UserSecretsId>
   </PropertyGroup>
+
+	<ItemGroup>
+      <Content Remove="front\package-lock.json" />
+      <Content Remove="front\package.json" />
+    </ItemGroup>
+		
+    <ItemGroup>
+	    <Content Include="front\**" Exclude="node_modules\;.parcel-cache\">
+		    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	    </Content>
+	    <!--<Content Include="wwwroot\public\**">
+		    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	    </Content>-->
+	    <Content Include="Data\Files\Databases\**">
+		    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	    </Content>
+    </ItemGroup>
+		
+    <ItemGroup>
+      <Compile Remove="front\.parcel-cache\**" />
+      <Compile Remove="front\node_modules\**" />
+      <Content Remove="front\.parcel-cache\**" />
+      <Content Remove="front\node_modules\**" />
+      <EmbeddedResource Remove="front\.parcel-cache\**" />
+      <EmbeddedResource Remove="front\node_modules\**" />
+      <None Remove="front\.parcel-cache\**" />
+      <None Remove="front\node_modules\**" />
+    </ItemGroup>
   
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="6.0.4" />
@@ -15,7 +43,6 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.3" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.4">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -24,11 +51,11 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
   </ItemGroup>
 
-  <ItemGroup>
-	  <Folder Include="Data\Files\Databases\"/>
-	  <Folder Include="front\src\"/>
-	  <Folder Include="wwwroot\public\"/>
-  </ItemGroup>
+	<ItemGroup>
+		<Folder Include="Data\Files\Databases\" />
+		<Folder Include="front\" Exclude="node_modules\;.parcel-cache\" />
+		<!--<Folder Include="wwwroot\public\"/>-->
+	</ItemGroup>
 
   <!--<ItemGroup>
     <None Include="wwwroot\public\Photos\01.jpg" />
