@@ -1,0 +1,31 @@
+.loader_container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10% 0;
+
+    .loader_img {
+        width: 30%;
+        padding: 34px;
+
+        border: 0;
+        border-radius: 50%;
+        animation: 1s linear infinite LoaderSpin;
+    }
+
+    .loader_caption {
+        text-align: center;
+        font-size: 50px;
+    }
+}
+
+@keyframes LoaderSpin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

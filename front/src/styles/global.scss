@@ -1,0 +1,32 @@
+$darkblue-color: #2D2D44;
+$gray-color: #D2D2D2;
+$link-color: #7B61FF;
+$card-function-color: #A4A4A4;
+
+@mixin for-phone-only {
+    @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-down {
+    @media (max-width: 600px) { @content; }
+}
+@mixin for-max-size($max-width) {
+    @media (max-width: $max-width) { @content; }
+}
+@mixin for-min-size($min-width) {
+    @media (min-width: $min-width) { @content; }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    position: relative;
+    user-select: none;
+    transition: all .3s;
+}
+
+html, body, #root {
+    width: 100%;
+    min-height: 100%;
+}

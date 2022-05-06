@@ -1,0 +1,11 @@
+Migrations/
+obj/
+bin/
+Data/Files/ApplicationData_backup.db
+.vs/
+.config/
+Properties/PublishProfiles/
+
+.parcel-cache/
+node_modules/
+dist/

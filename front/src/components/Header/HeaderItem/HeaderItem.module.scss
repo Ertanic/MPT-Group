@@ -1,0 +1,31 @@
+.header-item {
+    text-decoration: none;
+    font-size: 34px;
+    cursor: pointer;
+    color: black;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: $link-color;
+    }
+
+    &.mobile {
+        font-size: 24px;
+        letter-spacing: 0.04em;
+        margin-bottom: 25px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    &.tablet {
+        font-size: 34px;
+        letter-spacing: 0.04em;
+        margin-bottom: 25px;
+        text-align: center;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

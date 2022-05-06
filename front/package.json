@@ -1,0 +1,31 @@
+{
+  "name": "mpt-group-site-front",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "source": "./index.html",
+  "scripts": {
+    "dev": "parcel --port 3000",
+    "build": "parcel build index.html --no-content-hash",
+    "dev-with-back": "concurrently \"dotnet run --project ../mpt-group-site-back/\" \"npm run dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Ertanic@bitbucket.org/Ertanic/mpt-group-site-front.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Ertanic/mpt-group-site-front#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.4.1",
+    "parcel": "^2.4.1",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "dependencies": {
+    "ky": "^0.30.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0"
+  }
+}

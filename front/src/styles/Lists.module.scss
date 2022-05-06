@@ -1,0 +1,32 @@
+.blocks-list {
+    height: 100%;
+    margin: 0 auto;
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    &.mobile, 
+    &.tablet{
+        width: 100%;
+    }
+    &.tablet_landscape{
+        width: 900px;
+    }
+    &.desktop{
+        width: 1200px;
+    }
+    &.big_desktop{
+        width: 1350px;
+    }
+
+    &.desktop, &.tablet_landscape, &.tablet, &.mobile {
+        padding: 0 20px;
+    }
+}
+
+.content-list {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

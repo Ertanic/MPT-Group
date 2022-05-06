@@ -1,0 +1,15 @@
+$header-height: 97px;
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: {
+        top: 35px;
+        bottom: 30px;
+    }
+    max-height: $header-height;
+    padding-bottom: 10px;
+    border-bottom: 3px solid black;
+}
+
+@import 'Navmenu/'

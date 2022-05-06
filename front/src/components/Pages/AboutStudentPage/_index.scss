@@ -1,0 +1,61 @@
+.about_student_container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+
+    .about_student_photo_container {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: left;
+
+        @include for-min-size(300px) {
+            margin-bottom: 30px;
+        }
+    }
+    
+    .about_student_about_container {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+
+        @include for-max-size(800px) {
+            flex-wrap: wrap;
+        }
+
+        .about_student_photo{
+            width: fit-content;
+            @include for-min-size(800px){
+                margin-right: 30px;
+            }
+            @include for-min-size(1200px){
+                margin-right: 150px;
+            }
+        }
+
+        .about_student_about_container__data {
+            @include for-min-size(300px) {
+                align-items: center;
+
+                h2 {
+                    text-align: center;
+                }
+                p {
+                    text-indent: 0px;
+                }
+            }
+            @include for-min-size(800px) {
+                align-items: unset;
+                h2 {
+                    text-align: left;
+                }
+                p {
+                    text-indent: 30px;
+                }
+            }
+        }
+    }
+
+    @include for-max-size(800px){
+        // flex-flow: column ;
+    }
+}

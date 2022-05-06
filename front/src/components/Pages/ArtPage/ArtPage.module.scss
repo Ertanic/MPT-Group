@@ -1,0 +1,13 @@
+.arts_container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    &>img {
+        width: 100%;
+        max-height: 400px;
+        object-fit: contain;
+        margin-bottom: 30px;
+    }
+}

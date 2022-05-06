@@ -1,0 +1,35 @@
+.no_found_page_container {
+    width: 100%;
+    min-height: 100%;
+    display:flex;
+    // margin: 0 auto 100px auto;
+    margin: 0 auto 30px;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    .no_found_page_image {
+        margin: 20px 0;
+        width: 21.85%;
+    }
+
+    .no_found_page_code {
+        font-size: 100px;
+        font-weight: bold;
+        letter-spacing: 10px;
+
+        @include for-phone-only {
+            font-size: 50px;
+            letter-spacing: 5px;
+        }
+    }
+
+    .no_found_page_caption {
+        font-size: 60px;
+        text-align: center;
+
+        @include for-phone-only {
+            font-size: 30px;
+        }
+    }
+}

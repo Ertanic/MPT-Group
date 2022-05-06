@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>mpt_group_site_back</RootNamespace>
+    <UserSecretsId>f515cab0-c352-4053-9557-117a2325fece</UserSecretsId>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="6.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.4">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <Folder Include="Data\Files\Databases\"/>
+	  <Folder Include="front\src\"/>
+	  <Folder Include="wwwroot\public\"/>
+  </ItemGroup>
+
+  <!--<ItemGroup>
+    <None Include="wwwroot\public\Photos\01.jpg" />
+    <None Include="wwwroot\public\Photos\02.jpg" />
+    <None Include="wwwroot\public\Photos\03.jpg" />
+    <None Include="wwwroot\public\Photos\04.jpg" />
+    <None Include="wwwroot\public\Photos\05.jpg" />
+    <None Include="wwwroot\public\Photos\06.jpg" />
+  </ItemGroup>-->
+
+</Project>

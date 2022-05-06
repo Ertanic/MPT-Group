@@ -1,0 +1,56 @@
+.card {
+    width: 430px;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    text-align: center;
+    padding-top: 30px;
+
+    &>img{
+        width: 363px;
+        height: 363px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    .card__link {
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+        
+        &:hover {
+            color: $link-color;
+        }
+    }
+    
+    .card__name {
+        font-size: 26px;
+        margin: 17px auto;
+    }
+    
+    .card__function{
+        font-size: 20px;
+        color: $card-function-color;
+        margin-bottom: 18px;
+    }
+
+    @include for-phone-only {
+        width: 276px;
+
+        &>img{
+            width: 210px;
+            height: 210px;
+        }
+
+        .card__name {
+            font-size: 24px;
+            margin: 15px;
+        }
+
+        .card__function {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+    };
+}
