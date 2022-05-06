@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\ruslan\Desktop\Projects\Fattahov\MPT-site\publish\</_PublishTargetUrl>
+    <History>True|2022-05-06T16:16:07.7387782Z;True|2022-05-06T19:14:27.7866959+03:00;True|2022-05-06T19:12:03.2320794+03:00;True|2022-05-06T19:09:10.9544442+03:00;True|2022-05-06T19:05:23.2834548+03:00;False|2022-05-06T19:04:09.8449660+03:00;False|2022-05-06T19:03:19.5322762+03:00;False|2022-05-06T19:02:56.4139386+03:00;False|2022-05-06T19:02:27.1262823+03:00;False|2022-05-06T19:01:34.2037820+03:00;False|2022-05-06T18:59:31.4250176+03:00;False|2022-05-06T18:53:33.0938163+03:00;True|2022-05-06T18:53:15.4455293+03:00;False|2022-05-06T18:51:35.7078778+03:00;False|2022-05-06T18:50:41.2957142+03:00;False|2022-05-06T18:50:07.3269898+03:00;False|2022-05-06T18:49:24.0775679+03:00;True|2022-05-06T17:55:32.8175611+03:00;False|2022-05-06T17:55:19.6234649+03:00;True|2022-05-06T17:28:57.8536279+03:00;False|2022-05-06T17:25:38.1531535+03:00;False|2022-05-06T17:24:31.0089697+03:00;True|2022-05-06T17:23:11.5476400+03:00;True|2022-05-06T17:21:58.2400101+03:00;False|2022-05-06T17:19:29.0592417+03:00;False|2022-05-06T17:18:47.1165860+03:00;False|2022-05-06T17:14:36.5508187+03:00;False|2022-05-06T17:14:11.8382312+03:00;False|2022-05-06T17:13:26.3979886+03:00;False|2022-05-06T17:13:04.2152470+03:00;False|2022-05-06T17:12:40.3904561+03:00;False|2022-05-06T17:10:42.3222404+03:00;False|2022-05-06T17:10:12.6462156+03:00;False|2022-05-06T17:09:34.8080320+03:00;False|2022-05-06T17:09:00.4664097+03:00;False|2022-05-06T17:07:00.4378591+03:00;False|2022-05-06T17:06:16.8414734+03:00;False|2022-05-06T17:05:11.6153134+03:00;False|2022-05-06T17:04:25.1155584+03:00;True|2022-05-06T17:02:03.0633971+03:00;False|2022-05-06T16:59:38.6101039+03:00;False|2022-05-06T16:58:42.0638015+03:00;False|2022-05-06T16:57:53.5790662+03:00;True|2022-05-06T16:54:54.9351601+03:00;True|2022-05-06T16:54:06.7322959+03:00;True|2022-05-06T16:52:52.7304884+03:00;True|2022-05-06T16:51:02.2433007+03:00;False|2022-05-06T16:49:40.6889950+03:00;False|2022-05-06T16:45:42.7428920+03:00;True|2022-05-06T16:36:15.8592658+03:00;True|2022-05-06T16:35:37.3387086+03:00;True|2022-05-06T16:17:40.4808437+03:00;True|2022-05-06T16:15:37.5270370+03:00;True|2022-05-06T16:14:10.9103232+03:00;True|2022-05-06T16:13:01.6050546+03:00;False|2022-05-06T16:12:49.5144022+03:00;True|2022-05-06T16:07:26.4918327+03:00;True|2022-05-06T16:00:50.4483396+03:00;True|2022-05-06T14:47:46.8300853+03:00;True|2022-05-06T14:40:52.7480512+03:00;True|2022-05-06T14:16:36.2629795+03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Data/Contexts/ApplicationContext.cs">
+      <publishTime>04/19/2022 16:40:01</publishTime>
+    </File>
+    <File Include="Data/Files/ApplicationData_backup.db">
+      <publishTime>04/12/2022 09:20:58</publishTime>
+    </File>
+    <File Include="Data/Files/Databases/ApplicationData.db">
+      <publishTime>05/06/2022 12:27:44</publishTime>
+    </File>
+    <File Include="Data/Models/ArtModel.cs">
+      <publishTime>04/19/2022 16:32:19</publishTime>
+    </File>
+    <File Include="Data/Models/FunctionModel.cs">
+      <publishTime>04/12/2022 12:15:38</publishTime>
+    </File>
+    <File Include="Data/Models/PhotoModel.cs">
+      <publishTime>04/12/2022 12:15:40</publishTime>
+    </File>
+    <File Include="Data/Models/StudentModel.cs">
+      <publishTime>04/12/2022 12:15:40</publishTime>
+    </File>
+    <File Include="Data/Models/SubjectModel.cs">
+      <publishTime>04/12/2022 12:15:40</publishTime>
+    </File>
+    <File Include="Data/Models/TeacherModel.cs">
+      <publishTime>04/12/2022 12:15:40</publishTime>
+    </File>
+    <File Include="front/.gitignore">
+      <publishTime>07/04/2022 13:09:12</publishTime>
+    </File>
+    <File Include="front/bitbucket-pipelines.yml">
+      <publishTime>07/04/2022 13:16:34</publishTime>
+    </File>
+    <File Include="front/dist/404Image.3214eee8.jpg">
+      <publishTime>06/05/2022 17:54:44</publishTime>
+    </File>
+    <File Include="front/dist/404Image.6c36575f.jpg">
+      <publishTime>06/05/2022 17:54:44</publishTime>
+    </File>
+    <File Include="front/dist/index.52758fa1.css">
+      <publishTime>06/05/2022 17:54:48</publishTime>
+    </File>
+    <File Include="front/dist/index.52758fa1.css.map">
+      <publishTime>06/05/2022 17:54:48</publishTime>
+    </File>
+    <File Include="front/dist/index.5524c076.js">
+      <publishTime>06/05/2022 17:54:47</publishTime>
+    </File>
+    <File Include="front/dist/index.5524c076.js.map">
+      <publishTime>06/05/2022 17:54:47</publishTime>
+    </File>
+    <File Include="front/dist/index.dea6adb4.js">
+      <publishTime>06/05/2022 17:54:48</publishTime>
+    </File>
+    <File Include="front/dist/index.dea6adb4.js.map">
+      <publishTime>06/05/2022 17:54:48</publishTime>
+    </File>
+    <File Include="front/dist/index.html">
+      <publishTime>06/05/2022 17:54:47</publishTime>
+    </File>
+    <File Include="front/dist/link_icon.da74ff7c.svg">
+      <publishTime>06/05/2022 17:54:47</publishTime>
+    </File>
+    <File Include="front/dist/LoaderImage.95021b9c.jpg">
+      <publishTime>06/05/2022 17:54:48</publishTime>
+    </File>
+    <File Include="front/dist/LoaderImage.c4c80e38.jpg">
+      <publishTime>06/05/2022 17:54:48</publishTime>
+    </File>
+    <File Include="front/dist/Logo.39223daa.jpg">
+      <publishTime>06/05/2022 17:54:48</publishTime>
+    </File>
+    <File Include="front/dist/Logo.5aa50b80.jpg">
+      <publishTime>06/05/2022 17:54:48</publishTime>
+    </File>
+    <File Include="front/dist/Logo_mobile.79617950.jpg">
+      <publishTime>06/05/2022 17:54:44</publishTime>
+    </File>
+    <File Include="front/dist/Logo_mobile.abee3ec7.jpg">
+      <publishTime>06/05/2022 17:54:44</publishTime>
+    </File>
+    <File Include="front/dist/menu_arrow_icon.9a530d0f.svg">
+      <publishTime>06/05/2022 17:54:49</publishTime>
+    </File>
+    <File Include="front/index.html">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/package-lock.json">
+      <publishTime>06/05/2022 15:39:08</publishTime>
+    </File>
+    <File Include="front/package.json">
+      <publishTime>06/05/2022 15:39:08</publishTime>
+    </File>
+    <File Include="front/README.md">
+      <publishTime>07/04/2022 11:02:37</publishTime>
+    </File>
+    <File Include="front/src/assets/404Image.jpg">
+      <publishTime>05/05/2022 14:38:28</publishTime>
+    </File>
+    <File Include="front/src/assets/icons/link_icon.svg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/assets/icons/menu_arrow_icon.svg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/assets/LoaderImage.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/assets/Logo.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/assets/Logo_mobile.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/AboutStudent/index.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/AboutStudent/_index.scss">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/App.js">
+      <publishTime>06/05/2022 12:41:02</publishTime>
+    </File>
+    <File Include="front/src/components/BlocksList/index.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Card/index.js">
+      <publishTime>06/05/2022 16:13:57</publishTime>
+    </File>
+    <File Include="front/src/components/Card/_index.scss">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/CardsBlock/index.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/CardsBlock/_index.scss">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/ContentBlock/index.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/ContentBlock/_index.scss">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Contexts/DeviceContext/index.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Contexts/index.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Delimiter/Delimiter.module.scss">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Delimiter/index.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Footer/Footer.module.scss">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Footer/index.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Header/Header.module.scss">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Header/HeaderItem/HeaderItem.module.scss">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Header/HeaderItem/index.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Header/index.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Header/Navmenu/index.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Header/Navmenu/_index.scss">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/List/index.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Loader/index.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Loader/Loader.module.scss">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Loader/LoaderCaption/index.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Logo/index.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Logo/Logo.module.scss">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Pages/AboutStudentPage/index.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Pages/AboutStudentPage/_index.scss">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Pages/ArtPage/ArtPage.module.scss">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Pages/ArtPage/index.js">
+      <publishTime>06/05/2022 16:13:57</publishTime>
+    </File>
+    <File Include="front/src/components/Pages/Main/index.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Pages/Main/MainPage.module.scss">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Pages/NoFoundPage/index.js">
+      <publishTime>05/05/2022 15:11:25</publishTime>
+    </File>
+    <File Include="front/src/components/Pages/NoFoundPage/NoFoundPage.scss">
+      <publishTime>05/05/2022 15:12:10</publishTime>
+    </File>
+    <File Include="front/src/components/Pages/Page.module.scss">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Pages/StudentsPage/index.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Pages/TeachersPage/index.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Text/index.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/Text/_index.scss">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/TextHeaders/HeaderFirst/index.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/TextHeaders/HeaderSecond/index.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/components/TextHeaders/TextHeaders.module.scss">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/index.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/styles/global.scss">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/styles/Link.module.scss">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/styles/Lists.module.scss">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/styles/styles.scss">
+      <publishTime>05/05/2022 15:10:01</publishTime>
+    </File>
+    <File Include="front/src/utils/api/arts.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/utils/api/index.js">
+      <publishTime>06/05/2022 17:54:01</publishTime>
+    </File>
+    <File Include="front/src/utils/api/students.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/utils/api/teachers.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="front/src/utils/elementsArrayMapping.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

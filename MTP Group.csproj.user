@@ -10,6 +10,6 @@
     <WebStackScaffolding_LayoutPageFile />
     <WebStackScaffolding_DbContextTypeFullName>mpt_group_site_back.Data.Contexts.ApplicationContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
-    <NameOfLastUsedPublishProfile>C:\Users\ruslan\Desktop\Projects\Fattahov\MPT-site\mpt-group-site-back\Properties\PublishProfiles\FolderProfile.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\ruslan\Desktop\Projects\Fattahov\MPT-site\mpt-group-site-back\Properties\PublishProfiles\ReleaseProfile.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
