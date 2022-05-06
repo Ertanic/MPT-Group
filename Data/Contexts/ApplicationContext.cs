@@ -14,7 +14,7 @@ namespace mpt_group_site_back.Data.Contexts
 
         string DbFilePath { get; } = null!;
 
-        public ApplicationContext(DbContextOptions<ApplicationContext> options) 
+        public ApplicationContext(DbContextOptions<ApplicationContext> options)
             : base(options)
         {
         }

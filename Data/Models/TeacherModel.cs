@@ -8,8 +8,8 @@ namespace mpt_group_site_back.Data.Models
         public string LastName { get; set; } = null!;
         public string FirstName { get; set; } = null!;
         public string? MiddleName { get; set; } = null!;
-        
-        public int? PhotoId { get; set; } 
+
+        public int? PhotoId { get; set; }
         public Photo Photo { get; set; } = null!;
 
         [JsonIgnore]

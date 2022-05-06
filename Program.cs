@@ -1,4 +1,3 @@
-using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using mpt_group_site_back.Data.Contexts;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,6 +13,8 @@ builder.Services.AddControllers()
 builder.Services.AddSpaStaticFiles(spa => spa.RootPath = @"front\dist");
 
 var app = builder.Build();
+
+app.UseHttpsRedirection();
 
 #if DEBUG
 
